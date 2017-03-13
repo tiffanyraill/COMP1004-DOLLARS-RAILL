@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace COMP1004_DOLLARS_RAILL
 {
-    public partial class Form1 : Form
+    public partial class StartForm : Form
     {
-        public Form1()
+        public StartForm()
         {
             InitializeComponent();
         }
