@@ -8,6 +8,9 @@ namespace COMP1004_DOLLARS_RAILL
 {
     static class Program
     {
+        //declared globally 
+        public static SplashScreen MySplashScreen;
+
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -16,7 +19,11 @@ namespace COMP1004_DOLLARS_RAILL
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SelectForm());
+            //initialize splashScreen and selectionForm
+            Program.MySplashScreen = new SplashScreen();
+
+            //start program at SplashScreen
+            Application.Run(Program.MySplashScreen);
         }
     }
 }

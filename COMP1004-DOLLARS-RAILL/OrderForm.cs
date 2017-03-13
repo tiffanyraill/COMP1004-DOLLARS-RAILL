@@ -16,5 +16,15 @@ namespace COMP1004_DOLLARS_RAILL
         {
             InitializeComponent();
         }
+
+        private void cancelButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void printToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Getting Ready To Print...");
+        }
     }
 }

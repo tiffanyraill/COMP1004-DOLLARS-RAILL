@@ -16,5 +16,23 @@ namespace COMP1004_DOLLARS_RAILL
         {
             InitializeComponent();
         }
+
+        private void cancelButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void saveToolStripMenuItem_Click(object sender, EventArgs e)
+        {  
+            //when user clicks "save" show dialog
+            saveFileDialog1.ShowDialog();
+        }
+
+        private void saveFileDialog1_FileOk(object sender, CancelEventArgs e)
+        {
+            //file name
+            string name = saveFileDialog1.FileName;
+            
+        }
     }
 }
