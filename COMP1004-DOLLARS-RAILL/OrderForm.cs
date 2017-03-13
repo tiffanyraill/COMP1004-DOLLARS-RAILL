@@ -26,5 +26,11 @@ namespace COMP1004_DOLLARS_RAILL
         {
             MessageBox.Show("Getting Ready To Print...");
         }
+
+        private void finishButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Thank You for Your Business!\n\n" + "Your Order will be Processed in 7-10 Business Days ");
+            Application.Exit();
+        }
     }
 }

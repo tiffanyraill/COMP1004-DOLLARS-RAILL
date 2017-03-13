@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StartForm));
             this.newOrderButton = new System.Windows.Forms.Button();
             this.openButton = new System.Windows.Forms.Button();
             this.Exit = new System.Windows.Forms.Button();
@@ -99,6 +100,7 @@
             this.Controls.Add(this.Exit);
             this.Controls.Add(this.openButton);
             this.Controls.Add(this.newOrderButton);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "StartForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "StartForm";

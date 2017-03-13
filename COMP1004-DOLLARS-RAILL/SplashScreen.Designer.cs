@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SplashScreen));
             this.splashScreenMainLabel = new System.Windows.Forms.Label();
             this.splashScreenSellLabel = new System.Windows.Forms.Label();
             this.splashScreenTimer = new System.Windows.Forms.Timer(this.components);
@@ -75,6 +76,7 @@
             this.Controls.Add(this.splashScreenMainLabel);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "SplashScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SplashScreen";

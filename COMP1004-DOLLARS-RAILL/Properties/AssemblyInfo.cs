@@ -6,10 +6,10 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("COMP1004-DOLLARS-RAILL")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Contact Us! 1-705-555-1212")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("COMP1004-DOLLARS-RAILL")]
+[assembly: AssemblyCompany("Tiffany Raill 200264388")]
+[assembly: AssemblyProduct("www.DollarComputer.ca")]
 [assembly: AssemblyCopyright("Copyright © Microsoft 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

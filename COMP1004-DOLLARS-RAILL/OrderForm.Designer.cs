@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OrderForm));
             this.specsGroupBox = new System.Windows.Forms.GroupBox();
             this.systemComponenetsGroupBox = new System.Windows.Forms.GroupBox();
             this.yourPriceGroupBox = new System.Windows.Forms.GroupBox();
@@ -416,6 +417,7 @@
             this.finishButton.TabIndex = 3;
             this.finishButton.Text = "Finish";
             this.finishButton.UseVisualStyleBackColor = true;
+            this.finishButton.Click += new System.EventHandler(this.finishButton_Click);
             // 
             // cancelButton
             // 
@@ -569,6 +571,7 @@
             this.Controls.Add(this.specsGroupBox);
             this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "OrderForm";
