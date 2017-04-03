@@ -32,5 +32,13 @@ namespace COMP1004_DOLLARS_RAILL
             MessageBox.Show("Thank You for Your Business!\n\n" + "Your Order will be Processed in 7-10 Business Days ");
             Application.Exit();
         }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // STEP 1: Create a new form
+            AboutForm aboutForm = new AboutForm();
+            //STEP 2: Show the about form with ShowDialogue (a modal method that displays the form)
+            aboutForm.ShowDialog();
+        }
     }
 }

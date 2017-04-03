@@ -18,7 +18,7 @@ namespace COMP1004_DOLLARS_RAILL
     public partial class SelectForm : Form
     {
         private product selectedProduct;
-        public StartForm PreviousForm { get; set; } 
+        public StartForm PreviousForm { get; set; }
 
         public SelectForm()
         {
@@ -47,20 +47,25 @@ namespace COMP1004_DOLLARS_RAILL
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-           if (dataGridView1.SelectedRows.Count > 0) // Checking to see if any cell is selected
+            if (dataGridView1.SelectedRows.Count > 0) // Checking to see if any cell is selected
             {
                 string manufacturer = dataGridView1.SelectedRows[0].Cells[2].Value + string.Empty;
                 string model = dataGridView1.SelectedRows[0].Cells[3].Value + string.Empty;
-                string cost = dataGridView1.SelectedRows[0].Cells[1].Value + string.Empty; 
-               
+                string cost = dataGridView1.SelectedRows[0].Cells[1].Value + string.Empty;
+
 
                 selectionTextBox.Text = dataGridView1.SelectedRows[0].Cells[2].Value.ToString() + ", " + dataGridView1.SelectedRows[0].Cells[3].Value.ToString()
               + ", $ " + dataGridView1.SelectedRows[0].Cells[1].Value.ToString();
 
             }
-            
-                nextButton.Enabled = true;
-            }
+
+            nextButton.Enabled = true;
         }
+
+       /// private void SaveSelection()
+        ///{
+           /// Program.selectedProduct.productID = dataGridView1.SelectedRows[0].Cells[0].Value.ToString();
+        ///}
     }
+}
 
