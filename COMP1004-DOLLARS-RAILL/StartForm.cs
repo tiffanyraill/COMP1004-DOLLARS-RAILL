@@ -1,4 +1,9 @@
-﻿using System;
+﻿///@DollarComputer Assignment #4 RAILL  COMP1004-02-w2017
+///@Tiffany Raill
+///@200264388
+///App Creation Date: 3/12/2017
+///@Description:multi-form project that simulates a computer purchase.
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;

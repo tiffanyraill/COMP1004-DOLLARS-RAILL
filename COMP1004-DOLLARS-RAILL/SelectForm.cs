@@ -1,4 +1,9 @@
-﻿using System;
+﻿///@DollarComputer Assignment #4 RAILL  COMP1004-02-w2017
+///@Tiffany Raill
+///@200264388
+///App Creation Date: 3/12/2017
+///@Description:multi-form project that simulates a computer purchase.
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -39,18 +44,21 @@ namespace COMP1004_DOLLARS_RAILL
             this.Hide();
         }
 
-    
+
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-           /* if (dataGridView1.SelectedCells.Count > 0) // Checking to see if any cell is selected
+           if (dataGridView1.SelectedRows.Count > 0) // Checking to see if any cell is selected
             {
-                int selectedRowIndex = dataGridView1.SelectedCells[0].RowIndex;
+                string manufacturer = dataGridView1.SelectedRows[0].Cells[2].Value + string.Empty;
+                string model = dataGridView1.SelectedRows[0].Cells[3].Value + string.Empty;
+                string cost = dataGridView1.SelectedRows[0].Cells[1].Value + string.Empty; 
+               
 
-                DataGridViewRow selectedRow = dataGridView1.Rows[selectedRowIndex];
+                selectionTextBox.Text = dataGridView1.SelectedRows[0].Cells[2].Value.ToString() + ", " + dataGridView1.SelectedRows[0].Cells[3].Value.ToString()
+              + ", $ " + dataGridView1.SelectedRows[0].Cells[1].Value.ToString();
 
-                string catagoryName = Convert.ToString(selectedRow.Cells[1].Value);
-
-            }*/
+            }
+            
                 nextButton.Enabled = true;
             }
         }
