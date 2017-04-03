@@ -52,14 +52,14 @@ namespace COMP1004_DOLLARS_RAILL
             manufacturerTextBox.Text = Program.selectedProduct.manufacturer;
             ModelTextBox.Text = Program.selectedProduct.model;
 
-            memoryTextBox.Text = Program.selectedProduct.memory;
-            LCDSizeTextBox.Text = Program.selectedProduct.lcdSize;
-            HDDTextBox.Text = Program.selectedProduct.HDD;
-            CPUBrandTextBox.Text = Program.selectedProduct.CPUBrand;
-            CPUNumberTextBox.Text = Program.selectedProduct.CPUNumber;
-            GPUTypeTextBox.Text = Program.selectedProduct.GPUType;
-            CPUTypeTextBox.Text = Program.selectedProduct.CPUType;
-            CPUSpeedTextBox.Text = Program.selectedProduct.CPUSpeed;
+            memoryTextBox.Text = Program.selectedProduct.RAM_size;
+            LCDSizeTextBox.Text = Program.selectedProduct.screensize;
+            HDDTextBox.Text = Program.selectedProduct.HDD_speed;
+            CPUBrandTextBox.Text = Program.selectedProduct.CPU_brand;
+            CPUNumberTextBox.Text = Program.selectedProduct.CPU_number;
+            GPUTypeTextBox.Text = Program.selectedProduct.GPU_Type;
+            CPUTypeTextBox.Text = Program.selectedProduct.CPU_type;
+            CPUSpeedTextBox.Text = Program.selectedProduct.CPU_speed;
             webCamTextBox.Text = Program.selectedProduct.webcam;
         }
 
