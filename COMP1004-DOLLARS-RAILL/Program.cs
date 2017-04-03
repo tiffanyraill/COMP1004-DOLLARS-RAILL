@@ -27,7 +27,7 @@ namespace COMP1004_DOLLARS_RAILL
             Application.SetCompatibleTextRenderingDefault(false);
             //initialize splashScreen and selectionForm
             Program.MySplashScreen = new SplashScreen();
-
+           
             //start program at SplashScreen
             Application.Run(Program.MySplashScreen);
         }

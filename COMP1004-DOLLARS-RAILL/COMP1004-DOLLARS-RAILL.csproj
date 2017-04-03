@@ -65,6 +65,7 @@
     <Compile Include="OrderForm.Designer.cs">
       <DependentUpon>OrderForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="product.cs" />
     <Compile Include="ProductInfoForm.cs">
       <SubType>Form</SubType>
     </Compile>

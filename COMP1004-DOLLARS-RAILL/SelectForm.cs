@@ -17,7 +17,7 @@ namespace COMP1004_DOLLARS_RAILL
 {
     public partial class SelectForm : Form
     {
-        
+        private product selectedProduct;
         public StartForm PreviousForm { get; set; } 
 
         public SelectForm()
