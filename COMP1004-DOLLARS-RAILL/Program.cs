@@ -8,6 +8,7 @@ namespace COMP1004_DOLLARS_RAILL
 {
     static class Program
     {
+        
         //declared globally 
         public static SplashScreen MySplashScreen;
 
